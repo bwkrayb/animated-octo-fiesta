@@ -1,0 +1,207 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display:flex;
+	flex-direction: column;
+	margin:0;
+}
+
+button {
+	background-color: #3882f6;
+	border-style: solid;
+	border-color: #4d79ff;
+	border-radius: 8px;
+	color:white;
+	padding:5px 25px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.group3-button > button {
+	border-color:white;
+}
+
+.head-links {
+	text-decoration: none;
+}
+
+.header {
+	height:530px;
+	background-color:#1F2937;
+	color:#f9faf8;
+}
+
+.head-row {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px 200px 0px 200px;
+}
+
+.head-left {
+	font-size: 24px;
+	font-weight: 700;
+	color:#f9faf8;
+}
+
+.head-right {
+	display: flex;
+	flex-direction: row;
+	gap:16px;
+	align-items: center;
+	font-size:18px;
+	font-weight: 500;
+	color:#8a8a94;
+}
+
+.signup-box {
+	display:flex;
+	height: 100%;
+	justify-content: space-between;
+	margin: -20px 200px;
+	align-items: center;
+	gap:24px;
+}
+
+.signup-left {
+	width:500px;
+	height:230px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.signup-title {
+	font-size:48px;
+	font-weight: 700;
+	color:#f9faf8;
+}
+
+.signup-desc {
+	font-size: 18px;
+	font-weight:500;
+	color:#8a8a94;
+}
+
+.signup-image {
+	width:500px;
+	height:230px;
+	background-color:#6d7276;
+}
+
+.group1 {
+	height:530px;
+	background-color:white;
+	display:flex;
+	flex-direction: column;
+}
+
+.group1-title {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-weight:900;
+	color:#33394d;
+	margin:40px;
+}
+
+.group1-boxes {
+	height: 100%;
+	margin-top: -120px;
+	display:flex;
+	justify-content: center;
+	gap:60px;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+.group1-box {
+	width:170px;
+	display:flex;
+	flex-direction: column;
+}
+
+.gp1-shape {
+	width:170px;
+	height:170px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #4d79ff;
+	border-radius: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 12px;
+}
+
+.gp1-text {
+	text-align: center;
+	color:dimgray;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.group2 {
+	height:430px;
+	background-color:#e5e7eb;
+	display: flex;
+	flex-direction: column;
+	padding:0px 300px;
+	justify-content: center;
+}
+
+.group2-quote {
+	font-size: 37px;
+	color:#1f2937;
+	font-style: italic;
+	font-weight: 200;
+}
+
+.group2-name {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: 700;
+	font-size:20px;
+}
+
+.group3 {
+	height:350px;
+	background-color:white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.group3-box {
+	background-color:#3882f6;
+	border-radius: 8px;
+	width:100%;
+	height:150px;
+	margin-left:190px;
+	margin-right:190px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.group3-title {
+	font-size:24px;
+	color:#f9faf8;
+}
+
+.group3-info {
+	font-size:18px;
+	color:#e5e7eb;
+}
+
+.footer {
+	height:100px;
+	background-color:#1F2937;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color:#e5e7eb;
+}
